@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => _showSnackBar('This is a snackbar'),
+        onPressed: () => _showSnackBar('This is a snackbar used for the ScaffolfMeassages.'),
         tooltip: 'Show Snackbar',
         child: Icon(Icons.info_outline),
       ),
